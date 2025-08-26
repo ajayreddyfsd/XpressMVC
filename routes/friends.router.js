@@ -6,6 +6,7 @@ const friendsController = require("../controllers/friends.controller");
 
 // make a new router object from express
 // router lets us group routes together
+//! in the below code, we gonna write many routes, we wanna group all those routes into this router
 const friendsRouter = express.Router();
 
 // ------------------- Middleware for this router -------------------
@@ -16,7 +17,10 @@ friendsRouter.use((req, res, next) => {
   next(); // move on to the actual route handler
 });
 
-// ------------------- Routes -------------------
+//! ------------------- Mapping each Route to its respective function in the controller -------------------
+//! ------------------- Mapping each Route to its respective function in the controller -------------------
+//! ------------------- Mapping each Route to its respective function in the controller -------------------
+//! ------------------- Mapping each Route to its respective function in the controller -------------------
 
 // when client sends POST request to /friends
 // → call the postFriend function in the controller

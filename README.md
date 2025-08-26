@@ -4,16 +4,15 @@ A simple **Express.js** web application built with the **MVC architecture**.
 
 gt clone,
 
-npm install, 
+npm install,
 
 and npm start
-
 
 # folder structure
 
 myapp/
 
-├── models/ # contains data / some code connecting to db / some code trying to get specific things from DB
+├── models/ # Data Layer (contains data / some code connecting to db / some code trying to get specific things from DB)
 
 ├── views/ # UI layer (HTML templates like .hbs, .ejs)
 
