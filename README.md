@@ -2,7 +2,7 @@ A simple **Express.js** web application built with the **MVC architecture**.
 
 # How to get started
 
-gt clone,
+git clone,
 
 npm install,
 
