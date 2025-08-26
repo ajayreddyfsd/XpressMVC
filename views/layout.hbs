@@ -1,13 +1,17 @@
-<!DOCTYPE html>
+{{!-- this view is automatically rendered when index.hbs is rendered, 
+coz once index.hbs is being rendered, the contents of that file, are put into {{body}} of this file,
+and layout.hbs is rendered --}}
+
+
 <html>
 
-<head>
-  <title>{{title}}</title>
-  <link rel='stylesheet' href='site/css/style.css' />
-</head>
+  <head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="site/css/style.css" />
+  </head>
 
-<body>
-  {{{body}}}
-</body>
+  <body>
+    {{{body}}}
+  </body>
 
 </html>

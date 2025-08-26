@@ -1,2 +1,13 @@
+{{! we are rendering this view through the main server.js }}
+{{! the caption is being passed through the main 'server.js' file, when it is rendering this view }}
+
 <h1>{{caption}}</h1>
-<img src="site/images/skimountain.jpg" alt="Ski mountain">
+
+<img src="site/images/skimountain.jpg" alt="Ski mountain" />
+
+{{! how this view is getting rendered from server.js file }}
+{{!-- we render index.hbs from the main server.js file, 
+but the app, first puts this file inside the {{body}} of layout.hbs and renders layout.hbs file --}}
+
+{{! also, we pass both caption and title to this view, whatever is inside this view, go into this view,
+ and whatever are remaining, go to layout view }}

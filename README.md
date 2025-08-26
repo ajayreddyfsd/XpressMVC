@@ -22,4 +22,6 @@ myapp/
 
 ├── public/ # Static files (images, CSS, JS for frontend)
 
-├── app.js # Main server entry point
+├── server.js # this is the main entry point to the application, we render the index.hbs view in this, we also code middlewares inside this, and, we set up the routes once and for all and we also start the server
+
+# also tested the post requests of /friends and /messages using postman
