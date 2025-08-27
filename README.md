@@ -28,4 +28,4 @@ myapp/
 
 
 
-controllers and routers go hand in hand, coz we couple routes with specific-controller-function . and entry point to app is through server.js, so run that file to run the application
+Controllers and routers go hand in hand because the controller functions return JSON, text, files, or HTML pages (sometimes they also render views). We then couple each controller function with a specific route, and organize all those routes inside a router file. Finally, in server.js, we mount those routers on specific paths/routes again. so the server knows which router to use.
