@@ -14,7 +14,7 @@ myapp/
 
 ├── models/ # Data Layer (contains simple json data / some code connecting to db / some code trying to get specific things from the DB)
 
-├── views/ # UI layer (HTML templates like .hbs, .ejs; we also put placeholders in these files, and pass that data through the controller, which is rendering this respective view inside its controller function)
+├── views/ # UI layer (HTML templates like .hbs, .ejs; we also put placeholders {{}} in these files, and pass that data through the controller, which is rendering this respective view inside its controller function)
 
 ├── controllers/ # Logic layer (basically a group of functions accommodating all possible GET & POST actions. These functions also use respective models & return either json-data/ or render-respective-views)
 
@@ -25,3 +25,7 @@ myapp/
 ├── server.js # this is the main entry point to the application, we render the index.hbs view in this, we also code middlewares inside this, and, we set up the routes once and for all and we also start the server
 
 # also tested the post requests of /friends and /messages using postman
+
+
+
+# controllers and routers go hand in hand, coz we couple routes with specific-controller-function . and entry point to app is through server.js, so run that file to run the application
