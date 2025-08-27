@@ -28,4 +28,4 @@ myapp/
 
 
 
-# controllers and routers go hand in hand, coz we couple routes with specific-controller-function . and entry point to app is through server.js, so run that file to run the application
+controllers and routers go hand in hand, coz we couple routes with specific-controller-function . and entry point to app is through server.js, so run that file to run the application
