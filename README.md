@@ -27,5 +27,4 @@ myapp/
 # also tested the post requests of /friends and /messages using postman
 
 
-
-Controllers and routers go hand in hand because the controller functions return JSON, text, files, or HTML pages (sometimes they also render views). We then couple each controller function with a specific route, and organize all those routes inside a router file. Finally, in server.js, we mount those routers on specific paths/routes again. so the server knows which router to use.
+Controllers and routers go hand in hand because the controller functions return JSON, text, files, or HTML pages (sometimes they also render views). We then couple each controller function with a specific route, and organize all those routes inside a router file. Finally, in app.js, we mount those routers on specific paths/routes again. so the server knows which router to use.
